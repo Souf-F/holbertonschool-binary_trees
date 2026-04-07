@@ -19,6 +19,6 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	if (tree->right)
 		h_right = 1 + binary_tree_height(tree->right);
 
-	/*return the logest path*/
+	/*return the longest path*/
 	return (h_left > h_right ? h_left : h_right);
 }
