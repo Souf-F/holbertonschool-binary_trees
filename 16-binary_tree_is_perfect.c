@@ -1,4 +1,6 @@
 #include "binary_trees.h"
+/* Inclusion du fichier d'en-tête */
+
 /**
  * binary_tree_height - Measures the height of a binary tree
  *
