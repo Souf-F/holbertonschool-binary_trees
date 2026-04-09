@@ -1,4 +1,6 @@
 #include "binary_trees.h"
+/* Inclusion du fichier d'en-tête */
+
 /**
  * binary_tree_leaves - Counts the leaves in a binary tree
  *
@@ -22,3 +24,4 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 	return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 	/* Compte les feuilles du sous-arbre gauche + du sous-arbre droit */
 }
+/* Fin de la fonction */
